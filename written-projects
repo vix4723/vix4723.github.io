@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Victoria Clotet</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Vix's Personal Projects">
+	<meta name="keywords" content="resume, website, personal">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- My Logo -->
+	<link href="img/logo_icon.png.png" rel="shortcut icon"/>
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700" rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/flaticon.css"/>
+	<link rel="stylesheet" href="css/owl.carousel.css"/>
+	<link rel="stylesheet" href="css/magnific-popup.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+
+
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+
+	<!-- Sections start -->
+	<header class="header-section">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-4">
+				</div>
+				<figure class='logo'>
+					<img src="img/first_logo-removebg-preview.png" width='200' height='150'>
+				</figure>
+				<p>University of Virginia 2023</p>
+				<div class="col-md-8 text-md-right header-buttons">
+					<a href="index.html" class="site-btn">Home</a>
+					<a href="about-me.html" class="site-btn">About Me</a>
+					<a href="my-contact.html" class="site-btn">My Contact</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Sections end -->
+
+		<!-- Personal Projects Section start -->
+		<section class="extra-section spad pb-0">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xl-8 offset-xl-2">
+						<div class="section-title">
+							<h2>My Written Projects</h2>
+							<h3>1. Ethics of Technology - Philosophy Paper about Government Surveillance</h3>
+							<h4>Essay about James Stacey Taylor's argument about the permissibility for a state to get specific information through government surveillance - evidence of my written skills in English.</h4>
+							<embed src="phil1510ethicstechnology.pdf" width="800px" height="1000px" />
+							<div class="extra-section spad pb-0">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Extra section end -->
+
+
+	<!--====== Javascripts & Jquery ======-->
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/magnific-popup.min.js"></script>
+	<script src="js/circle-progress.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
