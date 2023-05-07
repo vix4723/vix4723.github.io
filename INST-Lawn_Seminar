@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Vix Clotet - INST: Lawn Seminar</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Vix's Personal Projects">
+	<meta name="keywords" content="resume, website, personal">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- My Logo -->
+	<link href="img/logo_icon.png.ico" rel="shortcut icon"/>
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700" rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/flaticon.css"/>
+	<link rel="stylesheet" href="css/owl.carousel.css"/>
+	<link rel="stylesheet" href="css/magnific-popup.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+
+
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+
+	<!-- Sections start -->
+	<header class="header-section">
+		<div class="container-fluid">
+			<div class="row">
+				<figure class='logo'>
+					<img src="img/logo_icon.png.ico" width='150' height='150'>
+				</figure>
+				<p>University of Virginia 2023</p>
+				<div class="col-md-8 text-md-center header-buttons">
+					<a href="index.html" class="site-btn">Home</a>
+					<a href="resume.html" class="site-btn">Resume</a>
+					<a href="interests.html" class="site-btn">Interests</a>
+					<a href="global-experience.html" class="site-btn">Global Experience</a>
+					<a href="photography.html" class="site-btn">Photography</a>
+					<a href="articles.html" class="site-btn">Articles</a>
+          <a href="personal-projects.html" class="site-btn">Personal Projects</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Sections end -->
+
+		<!-- Personal Projects Section start -->
+		<section class="extra-section spad pb-0">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xl-8 offset-xl-2">
+						<div class="section-title">
+							<h2>The Lawn Seminar Final Project</h2>
+							<h3>Myers & Briggs' 16 Personality Types, My College Experience, and Myself</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Extra section end -->
+	
+	<!-- Footer section start -->
+	<footer class="footer-section">
+		<div class="container text-center">
+			<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> Vix Clotet All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+</div>
+	</div>
+	</footer>
+	<!-- Footer section end -->
+
+
+	<!--====== Javascripts & Jquery ======-->
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/magnific-popup.min.js"></script>
+	<script src="js/circle-progress.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
