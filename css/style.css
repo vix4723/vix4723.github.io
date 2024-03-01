@@ -142,6 +142,7 @@ ol {
 }
 
 /* Site Buttons */
+/* Site Buttons */
 .site-btn {
 	display: inline-block;
 	text-transform: uppercase;
@@ -149,17 +150,42 @@ ol {
 	min-width: 213px;
 	min-height: 20px;
 	text-align: center;
-	padding: 20px 10px 15px;
 	position: relative;
+	padding: 1rem 2rem 0.5rem 2.5rem;
 	background-color: #fff;
 	margin-right: 10px;
-	border: 2px solid #40424a;
+	border: 3px solid #776e62;
 	color: #40424a;
 	font-weight: 700;
+	transition: padding 0.3s ease-in-out;
+}
+
+.site-btn:before {
+	content: "";
+	position: absolute;
+	top: 0.5rem;
+	left: 0.5rem;
+	z-index: -1;
+	height: calc(100% - 1rem);
+	/* Adjusted height */
+	width: calc(100% - 1rem);
+	/* Adjusted width */
+	background-color: #ffffff;
+	border: 3px solid #ffffff;
+	/* Adjusted border for visibility */
+	transition: all 0.3s ease-in-out;
 }
 
 .site-btn:hover {
+	padding: 0.75rem 2.25rem;
 	color: #40424a;
+}
+
+.site-btn:hover:before {
+	top: 0;
+	left: 0;
+	border: 3px solid #776e62;
+	/* Adjusted border color to match button */
 }
 
 .circle-progress {
@@ -437,15 +463,19 @@ ol {
 
 .social-section .social-links {
 	display: inline-block;
-	background: #f9f9f9;
-	position: relative;
-	z-index: 5;
 }
 
+/* Hover Effect */
+.social-section .social-links:hover a {
+	transform: translateY(-5px);
+	/* Move the element 5px up */
+}
 .social-section .social-links a {
 	color: #484848;
 	font-size: 36px;
 	margin-right: 40px;
+	transition: transform 0.3s ease;
+	/* Added transition */
 }
 
 .social-section .social-link-warp {
@@ -476,6 +506,19 @@ ol {
 /*---------------------
 	Resume section
 ----------------------*/
+
+@keyframes fadeInRight {
+	from {
+		opacity: 0;
+		transform: translateX(20px);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
 .resume-section.with-bg {
 	background-image: url(../img/resume-bg.jpg);
 	background-repeat: no-repeat;
@@ -483,6 +526,7 @@ ol {
 }
 
 .resume-list {
+	animation: fadeInRight 1s ease-out forwards;
 	list-style: none;
 	margin-left: 60px;
 	padding-left: 110px;
@@ -490,15 +534,18 @@ ol {
 }
 
 .resume-list li {
+	animation-delay: 1.5s;
 	margin-bottom: 120px;
 	position: relative;
 }
 
 .resume-list li:last-child {
 	margin-bottom: 0;
+	animation-delay: 1.75s;
 }
 
 .resume-list li:after {
+	animation-delay: 1.90s;
 	position: absolute;
 	content: '';
 	width: 15px;
