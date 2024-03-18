@@ -34,6 +34,11 @@ img {
 	max-width: 100%;
 }
 
+.rounded-btn {
+	border-radius: 15px;
+	/* You can adjust the value as per your preference */
+}
+
 input:focus,
 select:focus,
 button:focus,
